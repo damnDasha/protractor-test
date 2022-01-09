@@ -5,7 +5,7 @@ describe("Protractor baby steps", function () {
 
   //Each it block will be called as a spec
 
-  it("close browswer", function () {
+  it("close browser", function () {
     // code to close browser
   });
 });
@@ -15,3 +15,15 @@ describe("Protractor baby steps", function () {
 // it -- test case
 
 // spec -- test file
+//every spec should have describe and it blocks
+//configuration file -- will include all spec file names
+
+describe("A suite is just a function", function () {
+  const a;
+
+  it("and so is a spec", function () {
+    a = true;
+
+    expect(a).toBe(true);
+  });
+});
