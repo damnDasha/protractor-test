@@ -1,6 +1,9 @@
 describe("Protractor baby steps", function () {
+  //first parameter is the test suite
+  //second parameter is the function (function will have all the tests in it blocks)
   it("Open Angular js website", function () {
-    //write your protractor raw code
+    //write your protractor raw code..
+    //also two parameters, it -- test case, and function
   });
 
   //Each it block will be called as a spec
@@ -27,3 +30,4 @@ describe("A suite is just a function", function () {
     expect(a).toBe(true);
   });
 });
+
